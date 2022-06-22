@@ -1,0 +1,41 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+.viewport:first-child{
+    background-color: greenyellow;
+}
+
+.viewport:last-of-type{
+    background-color: lightcoral;
+    
+}
+
+.viewport{
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.viewport .card{
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+ 
+.viewport .card img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px rgb(77, 25, 219);
+
+}
+
+.viewport .card i {
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    color: wheat;
+}
